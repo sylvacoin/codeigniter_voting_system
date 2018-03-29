@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open-Sans light';
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #ecf0f1;
+    color: #34495e;
+    font-family: 'Open-sans';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 50px auto;
+    padding: 15px;
+    max-width: 360px;
+}
+
+.wrapper form .form-control {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid #bdc3c7;
+    font-size: .89em;
+    padding: 5px 10px;
+}
+
+.wrapper form .btn {
+    padding: 10px 15px; 
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.bg-primary {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn.bg-primary:hover {
+    background-color: #fff;
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
+.wrapper h1 {
+    font-family: 'Montserrat', tahoma;
+    text-align: center;
+    text-shadow: 2px 1px 5px #fff; 
+}
+
+.alert {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.error {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.success {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.divider div {
+    width: 32%;
+    height: 2px;
+    display: inline-block;
+}
